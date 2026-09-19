@@ -1,13 +1,13 @@
 import streamlit as st 
 import time 
 from langchain.chat_models import init_chat_model
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import os 
 
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-load_dotenv(override=True)
+# load_dotenv(override=True)
 api_key = os.getenv('OPENAI_API_KEY')
 
 # st.title("This is a title")
